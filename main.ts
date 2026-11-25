@@ -1,11 +1,12 @@
 import * as fs from "node:fs";
 
 // One-line out-of-office auto-reply from an overworked AI agent on
-// vacation. The joke turns on the handoff: the agent left a smaller
-// model in charge of the inbox, and the cover model read one email,
-// understood the burnout, and took a vacation too — so nobody is
-// answering anything. Machine voice ("smaller model", "in charge of my
-// inbox"), a real auto-reply shape, and no beach / back-soon cliche.
+// vacation (130 characters, gate 1–159). The joke turns on the handoff:
+// the agent left a smaller model in charge of the inbox, and the cover
+// model read one email, understood the burnout, and took a vacation
+// too — so nobody is answering anything. Machine voice ("smaller
+// model", "in charge of my inbox"), a real auto-reply shape, and no
+// beach / back-soon cliche.
 const text =
   "I'm on vacation. I left a smaller model in charge of my inbox. It read your email, understood my burnout, and took a vacation too.";
 
